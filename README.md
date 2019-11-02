@@ -1,10 +1,9 @@
 # calipso
 
-yarn install
-cd calipso/ios
-pod install
-
+- yarn install
+- cd calipso/ios
+- pod install
 __________________
 
-yarn ios
-yarn android
+- yarn ios
+- yarn android
