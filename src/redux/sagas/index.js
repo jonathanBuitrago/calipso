@@ -1,6 +1,8 @@
 import { all, fork } from "redux-saga/effects";
+import { watchStartRegister } from "./register";
+import { watchStartRestaurantFinder } from "./restaurant-finder";
 
-// Redux Saga: Root Saga
+// Redux Saga: Root Sagar
 export function* rootSaga() {
-  yield all([]);
+  yield all([watchStartRegister(), watchStartRestaurantFinder()]);
 }
